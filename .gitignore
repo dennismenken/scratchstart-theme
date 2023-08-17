@@ -1,0 +1,74 @@
+# .gitignore
+
+# ---- Visual Studio Code ----
+.vscode/
+
+# ---- JetBrains IDE ----
+.idea/
+
+# ---- Sublime Text ----
+*.sublime-workspace
+*.sublime-project
+
+# ---- macOS ----
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r.
+Icon
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+# ---- Windows ----
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# ---- Linux ----
+*~
+
+# KDE directory preferences
+.directory
+
+# Linux trash folder which might appear on any partition or disk
+.Trash-*
+
+# .nfs files are created when an open file is removed but is still being accessed
+.nfs*
+
+# ---- Environment Files ----
+.env
+.env.*
+.env.local
+
+# ---- Additional Files ----
+# These are usually put in by various IDEs and editors.
+*.bak
+*.tmp
+*.swp
+*.save
+*.swo
+*.orig
+*.log
+*.pid
